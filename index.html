@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+
+    <link rel="shortcut icon" href="./imagem/geovana.jpeg"/> 
+    <!-- chamando o ícone na aba do navegador -->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+
+<body>
+    <!-- cabeçalho da nossa página, visível ao usuário -->
+     <header class="header-menu">
+        <nav>
+            <ul class="lista-menu">
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#meus projetos">Meus Projetos</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- corpo da nossa página, visível ao usuário -->
+    <main>
+        <section class="principal">
+            <article class="subcontainer-principal container">
+               
+                <div>
+                    <img class="foto-perfil" src="./imagem/geovana.jpeg"/>
+                </div>
+
+                <div>
+                    <h1 class="nome-completo">Geovana Cordeiro</h1>
+                    <h2 class="profissao">Estudante</h2>
+                </div>
+
+                <div class="texto-sobre">
+                    <p>
+                        Olá! Tenho 20 anos, o ensino médio completo e alguns cursos. Minha última experiência de trabalho foi como Jovem Aprendiz na área auxilar administrativo, lá me capacitei e agora estou preparada para compartilhar alguns dos meus conhecimentos no setor, assim como também tenho interesse em aprender sobre outras esferas.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <!--Seção de informações pessoais-->
+
+        <section id="formacao">
+            <article class="container article-lista">
+                <div>
+                    <h3 class="topico-principal">Formação</h3>
+                </div>
+
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                            <p class="lista-titulo">Introdução a tecnologia</p>
+                            <a href="https://www.pretalab.com/" target="_blank" class="lista-local">Pretalab Olabi</a>
+                            <p class="lista-descricao">
+                                Conteúdo abordado no curso: lógica da programação, linguagem JavaScript, HTML, CSS
+                                    <br>Período de Julho/2023 a Agosto/2023 </br>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="lista-titulo">Auxiliar Administrativo</p>
+                            <a href="https://www.sestsenat.org.br/">Sest Senat</a>
+                            <p class="lista-descricao">
+                                Período de Março/2022 a Junho/2023
+                                </p>
+                        </li>
+                    </ul>
+                </div>
+
+            </article>
+        </section>
+
+        <!--Seção de Projetos pessoais-->
+       
+        <section class="wrapper-portfolio" id="meus projetos">
+            <article class="container article-lista">
+                <div>
+                    <h3 class="topico-principal"> Meus Projetos</h3>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <p class="lista-titulo">Calculadora em JavaScript</p>
+                            <a href="https://github.com/asilvaolabi/projetofinal_logica_ssa.git">Link para o projeto</a>
+                            <p class="lista-descricao">Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.</li>
+                        <li>
+                            <p class="lista-titulo">Projeto Pessoal em React</p>
+                            <a href="">Link para o projeto</a>
+                            <p class="lista-descricao">Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.   </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+
+<!--rodapé da nossa página, visível ao usuário-->
+
+    <footer class="rodape">
+        <div class="container">
+            <ul id="contato" class="lista-rodape">
+                <li><i class="fas fa-envelope-square estilo-icone"></i>geovana14cordeiro15@gmail.com</li>
+                <li href=""><i class="fab fa-linkedin estilo-icone"></i>geovana-cordeiro</li>
+                <li href=""><i class="fab fa-github-square estilo-icone"></i>geovanacord</li></li>
+            </ul>
+        </div>
+    </footer>    
+</body>
+
+</html>
