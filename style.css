@@ -14,7 +14,7 @@
 .principal{
   height: 100vh;
   display: flex;
-  background-color: #ddeeee;
+  background-color: rgb(202, 233, 243);
 }
 
 .container {
@@ -55,7 +55,7 @@ li{
     padding-bottom: 32px;
     padding-top: 32px;
     height: 50px;
-    background-color: rgb(88, 113, 168);
+    background-color: rgb(95, 173, 197); 
 }
 
 .header-menu nav {
@@ -75,7 +75,7 @@ li{
 
 .lista-menu li > a {
 
-    color: #c6b5d5;
+    color: #ffffff;
     font-size: 18px;
     text-decoration: inherit;
 }
@@ -91,13 +91,13 @@ li{
 }
 .nome-completo{
     font-size: 36px;
-    color: #563a70;
+    color: #30537a;
     font-weight: 700;
     height: 45px;
 }
 
 .profissao{
-    color: #c6b5d5;
+    color: #6388b3;
     height: 60PX;
   }
   
@@ -110,7 +110,7 @@ li{
   
   .topico-principal {
     font-size: 36px;
-    color: #563a70;
+    color: #30537a;
   }
   
   .lista-item{
@@ -125,7 +125,7 @@ li{
   .lista-titulo{
    margin-bottom: 5px; 
    font-size: 22px;
-   color: #614757;
+   color: #6388b3;
    font-weight: 700;
   }
 
@@ -140,12 +140,12 @@ li{
     font-size: 18px;
     margin-top: 5px;
     line-height: 20px; 
-    color: #828282;
+    color: #8f9094;
     font-weight: 300;
   }
 
   .rodape{
-    background-color: #724796;
+    background-color: rgb(95, 173, 197);
     height: 300px;
     display: flex;
     align-items: center;    
@@ -164,6 +164,6 @@ li{
   }
 
   .foto-perfil{
-    height: 150px;
+    height: 180px;
     width: 150px;
   }
